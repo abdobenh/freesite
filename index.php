@@ -5,14 +5,10 @@
     <title></title>
   </head>
   <body>
+   <h1> index.php</h1>
+<?php 
+echo " salamo 3alaykom"; ?>
+
   </body>
 </html>
-<?php
-$msg = "First line of text\nSecond line of text";
-$t=mail("abdo.benh123@gmail.com","My subject",$msg);
-if($t){
-  echo"message est envoyé";
-}else{
-  echo"message n'est pas envoyé";
-}
-?>
+
